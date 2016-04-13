@@ -11,7 +11,7 @@ configuration file.
 
 ## Installation
 
-    npm install appc.js
+    npm install appc.js --save
 
 ## Examples
 
