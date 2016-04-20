@@ -15,8 +15,18 @@ configuration file.
 
 ## Examples
 
+Example for ES5:
+
 ```javascript
-var AppCJS = require('appc.js');
+var AppCJS = require('appc.js').default;
+var app = new AppCJS(fileLocation);
+console.log(app.name);
+```
+
+Example for ES6:
+
+```javascript
+import AppCJS from 'appc.js';
 var app = new AppCJS(fileLocation);
 console.log(app.name);
 ```
